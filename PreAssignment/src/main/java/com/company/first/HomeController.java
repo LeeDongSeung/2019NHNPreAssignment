@@ -36,6 +36,7 @@ public class HomeController {
 		return "home";
 	}
 	
+	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String register(Locale locale, Model model) {
 		logger.info("Welcome register!! The client locale is {}.", locale);
